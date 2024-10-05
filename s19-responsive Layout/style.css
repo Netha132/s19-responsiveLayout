@@ -1,0 +1,81 @@
+#onePlus img{
+    width: 300px;
+}
+#head{
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(249, 3, 3);
+    padding: 10px;
+    color: #fff;
+}
+#onePlus{
+    width: 45%;
+    background-color: aqua;
+    display: inline-block;
+}
+#onePlus1 img{
+    width: 300px;
+}
+#onePlus1{
+    width: 45%;
+    background-color: aquamarine;
+    display: inline-block;
+}
+@media only screen and(min-width:600px)and (max-width:700px) {
+
+}
+#inner{
+    width: 50%;
+    background-color: blue;
+    display: inline-block;
+}
+#inner img{
+    width: 50%;
+}
+#inner1{
+    width: 50%;
+    background-color: brown;
+}
+#inner1 img{
+    width: 50%;
+} 
+
+body{
+    background-color: #920211;
+}
+p{
+    color: #fff;
+}
+
+@media only screen and (min-width:800px) and (max-width:1000px){
+    body{
+        background-color: #8298e8;
+    }
+    #mainHead{
+        background-color: #d2bdbf;
+        font-size: 3rem;
+        color: #000;
+    }
+    p{
+        color: #000;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:800px){
+    body{
+        background-color: blueviolet;
+    }
+    #mainHead{
+        background-color: #000;
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: cursive;
+        padding: 10px;
+        text-align: center;
+    }
+    p{
+        font-size: 1.5rem;
+        color:#a20510;
+    }
+}
